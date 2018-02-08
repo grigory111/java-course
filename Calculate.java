@@ -1,11 +1,24 @@
-public class Calculate
-{
-	public static void main(String[] arg)
+
+public class Calculate {
+	
+	private int result;
+	
+	public void add(int...params)
 	{
-		Integer first = Integer.valueOf(arg[0]);
-		Integer second = Integer.valueOf(arg[1]);
-		Integer sum = first + second;
-		System.out.println("Sum = " + sum);
+		for(int param: params)
+			result += param;
+		
 	}
+	
+	public int getResult()
+	{
+		return result;
+	}
+	
+	public void clear()
+	{
+		result = 0;
+	}
+			
 
 }
