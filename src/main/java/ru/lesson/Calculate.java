@@ -47,7 +47,6 @@ public class Calculate {
 
     }
 
-
     public double getResult()
 	{
 		return result;
@@ -58,5 +57,4 @@ public class Calculate {
 		result = 0;
 	}
 			
-
 }
