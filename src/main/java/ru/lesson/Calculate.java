@@ -21,6 +21,12 @@ public class Calculate {
 		}
 		
 	}
+	
+	
+	public void substract(int first, int second)
+	{
+			result = first - second;
+	}
 
 	public void div(int first, int second)
 	{
